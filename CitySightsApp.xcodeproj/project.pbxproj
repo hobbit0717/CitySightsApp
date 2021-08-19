@@ -21,6 +21,7 @@
 		523C035A26CA0FB800CB11E3 /* BusinessSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523C035926CA0FB800CB11E3 /* BusinessSection.swift */; };
 		523C035C26CC82DB00CB11E3 /* BusinessRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523C035B26CC82DB00CB11E3 /* BusinessRow.swift */; };
 		523C035F26CCB30C00CB11E3 /* BusinessDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523C035E26CCB30C00CB11E3 /* BusinessDetail.swift */; };
+		523C036226CDF39200CB11E3 /* BusinessMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523C036126CDF39200CB11E3 /* BusinessMap.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		523C035926CA0FB800CB11E3 /* BusinessSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessSection.swift; sourceTree = "<group>"; };
 		523C035B26CC82DB00CB11E3 /* BusinessRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessRow.swift; sourceTree = "<group>"; };
 		523C035E26CCB30C00CB11E3 /* BusinessDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessDetail.swift; sourceTree = "<group>"; };
+		523C036126CDF39200CB11E3 /* BusinessMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessMap.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,6 +164,7 @@
 			isa = PBXGroup;
 			children = (
 				523C035226C9E58F00CB11E3 /* HomeView.swift */,
+				523C036026CDF36B00CB11E3 /* Map */,
 				523C035426C9E98D00CB11E3 /* List */,
 			);
 			path = Home;
@@ -185,6 +188,14 @@
 				523C035E26CCB30C00CB11E3 /* BusinessDetail.swift */,
 			);
 			path = Detail;
+			sourceTree = "<group>";
+		};
+		523C036026CDF36B00CB11E3 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				523C036126CDF39200CB11E3 /* BusinessMap.swift */,
+			);
+			path = Map;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,6 +276,7 @@
 				523C035F26CCB30C00CB11E3 /* BusinessDetail.swift in Sources */,
 				523C034B26C9D07100CB11E3 /* BusinessSearch.swift in Sources */,
 				523C035626C9E9A600CB11E3 /* BusinessList.swift in Sources */,
+				523C036226CDF39200CB11E3 /* BusinessMap.swift in Sources */,
 				523C035A26CA0FB800CB11E3 /* BusinessSection.swift in Sources */,
 				523C034726C9AE5500CB11E3 /* ContentModel.swift in Sources */,
 				523C034E26C9D74D00CB11E3 /* Constants.swift in Sources */,
